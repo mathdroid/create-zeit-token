@@ -1,6 +1,6 @@
 {
   "name": "create-zeit-token",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Node module to programmatically obtain ZEIT tokens",
   "main": "index.js",
   "repository": "https://github.com/mathdroid/create-zeit-token",
