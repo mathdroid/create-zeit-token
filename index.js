@@ -31,7 +31,6 @@ class CreateZeitToken extends EventEmitter {
       this.token = authorization.split(" ")[1]; // Authorization format is `Bearer xxxxxxxx`
       this.emit("token", this.token);
       r.abort();
-      this.p.off("request", this.getTokenFromHeader);
       await this.b.close();
     }
   }
