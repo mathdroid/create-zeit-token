@@ -2,6 +2,8 @@
 
 This is a Node module to obtain a new ZEIT token for a supplied account. The implementation is based on `puppeteer` and `EventEmitter`
 
+![demo](demo.gif)
+
 ## Usage
 
 ```bash
